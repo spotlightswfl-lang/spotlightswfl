@@ -12,10 +12,45 @@ export const featuredBusinesses = [
 ];
 
 export const benefits = [
-  { icon: '📺', title: 'Video directory', description: 'Showcase branded business videos, tours and spotlight campaigns.' },
+  { icon: '���', title: 'Video directory', description: 'Showcase branded business videos, tours and spotlight campaigns.' },
   { icon: '🧩', title: 'Marketplace', description: 'Create a social commerce experience like a local Facebook marketplace.' },
   { icon: '🎟️', title: 'Ticket sales', description: 'Sell event passes, classes and premium experiences securely.' },
   { icon: '📊', title: 'Analytics', description: 'Track engagement, page activity, leads and revenue insights.' },
+];
+
+export const platformFeatures = [
+  { title: 'Community social', icon: '💬', description: 'Local conversations, posts, reviews, and neighborhood boards.' },
+  { title: 'Games & engagement', icon: '🎮', description: 'Interactive trivia, badges, challenges, and user retention loops.' },
+  { title: 'Productivity tools', icon: '🧠', description: 'Task boards, calendars, offers, and business planning utilities.' },
+  { title: 'Analytics center', icon: '📈', description: 'Traffic insights, sales tracking, lead scoring, and optimization.' },
+  { title: 'Google integration', icon: '🌐', description: 'Business profile syncing, local SEO enhancement, and map visibility.' },
+  { title: 'Messaging engine', icon: '📨', description: 'Inbox, chat, customer support, and direct business outreach.' },
+];
+
+export const socialIntegrations = [
+  { name: 'Instagram', status: 'Connected', detail: 'Post stories and reels with one click.' },
+  { name: 'Facebook', status: 'Connected', detail: 'Automate listings and ads to local audiences.' },
+  { name: 'Google Business', status: 'Synced', detail: 'Keep hours, updates, and reviews aligned.' },
+  { name: 'X / Twitter', status: 'Connected', detail: 'Boost event and deal awareness quickly.' },
+];
+
+export const gameHighlights = [
+  { name: 'Local Trivia', format: 'Daily challenge', reward: 'Business coupons' },
+  { name: 'Deal Hunt', format: 'Weekly scavenger', reward: 'Discount vouchers' },
+  { name: 'SWFL Bingo', format: 'Community event', reward: 'Prize draws' },
+];
+
+export const productivityApps = [
+  { name: 'Marketing planner', description: 'Campaign scheduling and asset planning for local promotions.' },
+  { name: 'Task board', description: 'Track business actions, proposals, and follow-up tasks.' },
+  { name: 'Invoice tracker', description: 'Monitor revenue, invoices, and payment reminders.' },
+];
+
+export const analyticsSummary = [
+  { label: 'Engagement rate', value: '72%' },
+  { label: 'Local leads', value: '1,284' },
+  { label: 'Coupon scans', value: '9,540' },
+  { label: 'Ticket conversion', value: '18.4%' },
 ];
 
 export const dealHighlights = [
@@ -61,4 +96,11 @@ export const messageGroups = [
 export const radioStations = [
   { name: 'SWFL Groove FM', description: 'Live local music and community interviews', listeners: '8.4k listening' },
   { name: 'Sunset 91.9', description: 'Fresh hits, local news and sponsor spots', listeners: '3.7k listening' },
+];
+
+export const socialFeatures = [
+  { label: 'Instagram Reels sync', value: 'Live' },
+  { label: 'Google Reviews', value: 'Synced' },
+  { label: 'Community groups', value: '18 active' },
+  { label: 'Audience reach', value: '4.8M' },
 ];

@@ -7,6 +7,10 @@ const navItems = [
   { label: 'Tickets', href: '/tickets' },
   { label: 'Messages', href: '/messages' },
   { label: 'Radio', href: '/radio' },
+  { label: 'Social', href: '/social' },
+  { label: 'Games', href: '/games' },
+  { label: 'Productivity', href: '/productivity' },
+  { label: 'Analytics', href: '/analytics' },
 ];
 
 export function Navbar() {
@@ -23,7 +27,7 @@ export function Navbar() {
           </div>
         </Link>
 
-        <nav className="hidden items-center gap-6 md:flex">
+        <nav className="hidden items-center gap-6 xl:flex">
           {navItems.map((item) => (
             <Link key={item.href} href={item.href} className="text-sm text-slate-300 transition hover:text-white">
               {item.label}
